@@ -6,28 +6,7 @@ using System.Threading.Tasks;
 
 namespace Practic11_5
 {
-    /* internal class Product
-     {
-         private int price;
-         private int discount;
-
-
-         public int Price { 
-             get { return price; } 
-             set { price = value >= 0 ? value : 0; } 
-         }
-         public int Discount
-         {
-             get { return discount; }
-             set { discount = value >= 0 && value <= 100 ? value : 0; }
-         }
-         public int FinalPrice() {
-             get { return Price * (1 - Discount / 100); }
-         }
-     }*/
-
-
-    class Product
+    internal class Product
     {
         private double price;
         private double discount;
